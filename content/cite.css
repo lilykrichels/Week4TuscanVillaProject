@@ -1,2 +1,13 @@
 ﻿body {
 }
+.navelbar{
+    background-color: darkslategrey;
+    
+}
+.nav.navbar-nav.navbar-right li a {
+    color: antiquewhite;
+}
+
+.glyphicon.glyphicon-home{
+    color: antiquewhite;
+}

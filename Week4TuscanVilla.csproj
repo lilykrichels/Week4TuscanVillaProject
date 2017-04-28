@@ -106,11 +106,24 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\cite.css" />
+    <Content Include="images\backpatio.jpg" />
+    <Content Include="images\daytimepool.jpg" />
+    <Content Include="images\italy-mountain-villa.jpeg" />
+    <Content Include="images\modern-villa.jpeg" />
+    <Content Include="images\nighttimepool.jpg" />
+    <Content Include="images\tuscany-grape-field-nature.jpeg" />
+    <Content Include="images\tuscany-villas-sant-anna.jpg" />
+    <Content Include="images\VersiliaMap.jpg" />
+    <Content Include="images\VillaVannaPatio.jpg" />
+    <Content Include="images\whitebedroom.jpg" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
