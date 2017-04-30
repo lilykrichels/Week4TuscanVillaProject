@@ -14,13 +14,13 @@
 }
 
 /*this is for the main two pictures of places I can't afford to go */
-jumboton{
+.jumbotron{
     height:100%;
     padding-left:0px;
     padding-top:0px;
     padding-right:0px;
 }
-.jumbotron.row {
+.row {
     height:100%;
     float: left;background-image: url('tuscany-villas-sant-anna.jpg');
     float: right; background-image: url('VersiliaMap.jpg');
@@ -38,4 +38,6 @@ jumboton{
     padding-top:20px;
     padding-bottom:20px;
 }
+
+
 
