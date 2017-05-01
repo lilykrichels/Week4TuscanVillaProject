@@ -14,24 +14,20 @@
 }
 
 /*this is for the main two pictures of places I can't afford to go */
-.jumbotron{
+mainImages{
     height:100%;
     padding-left:0px;
     padding-top:0px;
     padding-right:0px;
 }
-.row {
+row.mainImages{
     height:100%;
     float: left;background-image: url('tuscany-villas-sant-anna.jpg');
     float: right; background-image: url('VersiliaMap.jpg');
 }
 
-.jumbotron{
-    padding-top:0px;
-    margin-top:0px;
-}
 
-.firstHeader{
+.sectionHeader{
     background-color:darkslategrey;
     color:antiquewhite;
     text-align:center;
@@ -39,5 +35,13 @@
     padding-bottom:20px;
 }
 
+.secondLocation{
+    background-color:lightgray;
+}
+.amenitiesFirstRow{
+   font-style:italic;
+}
 
-
+.amenitiesSecondRow{
+    background-color:lightgray;
+}
