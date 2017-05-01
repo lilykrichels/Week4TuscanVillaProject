@@ -14,18 +14,40 @@
 }
 
 /*this is for the main two pictures of places I can't afford to go */
-mainImages{
+.mainImages{
     height:100%;
     padding-left:0px;
     padding-top:0px;
     padding-right:0px;
+    margin-bottom:0px;
+
 }
-row.mainImages{
+/*.row.mainImages{
     height:100%;
     float: left;background-image: url('tuscany-villas-sant-anna.jpg');
     float: right; background-image: url('VersiliaMap.jpg');
+}*/
+
+.jumbotron > .jumbotronImages{
+    z-index:500;
+    
 }
 
+.jumbotron > h1 {
+    z-index: 800;
+    position: relative;
+    bottom: 300px;
+    color:antiquewhite;
+    padding-left:15px;
+}
+
+.jumbotron > h3 {
+    z-index: 800;
+    position: relative;
+    bottom: 300px;
+    color:antiquewhite;
+    padding-left:30px;
+}
 
 .sectionHeader{
     background-color:darkslategrey;
@@ -38,8 +60,17 @@ row.mainImages{
 .secondLocation{
     background-color:lightgray;
 }
-.amenitiesFirstRow{
-   font-style:italic;
+.amenities img{
+    z-index:500;
+}
+
+.amenities h4{
+    z-index:600;
+    bottom:150px;
+    position:relative;
+    padding-left:60px;
+    font:bold;
+    color:antiquewhite;  
 }
 
 .amenitiesSecondRow{
