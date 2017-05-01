@@ -14,7 +14,8 @@
     color: antiquewhite;
 }
 
-/*this is for the main two pictures of places I can't afford to go */
+/*I can't figure out the jumbotron at all/*
+
 .mainImages{
     height:100%;
     padding-left:0px;
@@ -61,10 +62,15 @@
 .secondLocation{
     background-color:lightgray;
 }
+
+
 .amenities img{
     z-index:500;
 }
 
+/*this code that i wrote while trying footer get thead grey buttons on top of the amenities images*/ 
+/*I removed it from the html portion after trying  a few other options, but i 
+    could not get the text to stay over the image*/
 .amenities h3{
     z-index:500;
     bottom:300px;
@@ -84,6 +90,7 @@
     text-align:center;
 }
 
+/*this formats the carousel text to be in the center*/
 .carouselRow{
     text-align:center;
     color:darkslategrey;
