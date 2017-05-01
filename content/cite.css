@@ -1,4 +1,5 @@
 ﻿body {
+    font-family: 'Montserrat', sans-serif;
 }
 .navelbar{
     background-color: darkslategrey;
@@ -64,15 +65,32 @@
     z-index:500;
 }
 
-.amenities h4{
-    z-index:600;
-    bottom:150px;
+.amenities h3{
+    z-index:500;
+    bottom:300px;
     position:relative;
     padding-left:60px;
     font:bold;
     color:antiquewhite;  
+    background-color:dimgrey;
+    background-position-x:center;
 }
 
-.amenitiesSecondRow{
-    background-color:lightgray;
+
+.amenities p{
+    text-align:center;
+}
+.amenities h2{
+    text-align:center;
+}
+
+.carouselRow{
+    text-align:center;
+    color:darkslategrey;
+}
+
+footer{
+    text-align:center;
+    background-color:darkslategray;
+    color:antiquewhite;
 }
