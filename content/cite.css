@@ -31,23 +31,23 @@
 
 .jumbotron > .jumbotronImages{
     z-index:500;
-    
+    margin-bottom:0px;
 }
 
 .jumbotron > h1 {
     z-index: 800;
     position: relative;
-    bottom: 300px;
+    bottom: 325px;
     color:antiquewhite;
-    padding-left:15px;
+    padding-left:100px;
 }
 
 .jumbotron > h3 {
     z-index: 800;
     position: relative;
-    bottom: 300px;
+    bottom: 325px;
     color:antiquewhite;
-    padding-left:30px;
+    padding-left:200px;
 }
 
 .sectionHeader{
